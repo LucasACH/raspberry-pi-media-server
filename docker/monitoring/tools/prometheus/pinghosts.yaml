@@ -1,0 +1,9 @@
+- targets: # url;humanname;routing;switch
+    - http://www.google.com/;google.com;external;internetbox
+    - https://github.com/;github.com;external;internetbox
+    - https://www.lanacion.com.ar/;lanacion.com.ar;external;internetbox
+    - https://www.mercadolibre.com.ar/;mercadolibre.com.ar;external;internetbox
+    # - http://192.168.1.1;internetbox;local;internetbox
+    # - http://192.168.1.42;blackdata;local;orbirouter-attic
+    # - http://192.168.1.101;orbirouter;local;orbirouter
+

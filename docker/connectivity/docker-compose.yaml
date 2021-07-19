@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  duckdns:
+    container_name: duckdns
+    image: ghcr.io/linuxserver/duckdns
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+      - SUBDOMAINS=lasudeste
+      - TOKEN=136c1edf-e709-4e2c-91a5-5b077812ad65
+      - LOG_FILE=false
+    volumes:
+      - /home/pi/docker/connectivity/duckdns/config:/config
+
+  wireguard:
+    image: ghcr.io/linuxserver/wireguard
+    container_name: wireguard
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+      - SERVERURL=lasudeste.duckdns.org
+      - SERVERPORT=51820 
+      - PEERS=1 
+      - PEERDNS=auto 
+      - INTERNAL_SUBNET=10.13.13.0
+      - ALLOWEDIPS=0.0.0.0/0
+    volumes:
+      - /home/pi/docker/connectivity/wireguard/config:/config
+      - /lib/modules:/lib/modules
+    ports:
+      - 51820:51820/udp
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1

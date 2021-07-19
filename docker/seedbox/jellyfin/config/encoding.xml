@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncodingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EncodingThreadCount>-1</EncodingThreadCount>
+  <EnableFallbackFont>false</EnableFallbackFont>
+  <DownMixAudioBoost>2</DownMixAudioBoost>
+  <MaxMuxingQueueSize>2048</MaxMuxingQueueSize>
+  <EnableThrottling>false</EnableThrottling>
+  <ThrottleDelaySeconds>180</ThrottleDelaySeconds>
+  <EncoderAppPathDisplay>/usr/lib/jellyfin-ffmpeg/ffmpeg</EncoderAppPathDisplay>
+  <VaapiDevice>/dev/dri/renderD128</VaapiDevice>
+  <OpenclDevice>0.0</OpenclDevice>
+  <EnableTonemapping>false</EnableTonemapping>
+  <EnableVppTonemapping>false</EnableVppTonemapping>
+  <TonemappingAlgorithm>hable</TonemappingAlgorithm>
+  <TonemappingRange>auto</TonemappingRange>
+  <TonemappingDesat>0</TonemappingDesat>
+  <TonemappingThreshold>0.8</TonemappingThreshold>
+  <TonemappingPeak>100</TonemappingPeak>
+  <TonemappingParam>0</TonemappingParam>
+  <H264Crf>23</H264Crf>
+  <H265Crf>28</H265Crf>
+  <DeinterlaceDoubleRate>false</DeinterlaceDoubleRate>
+  <DeinterlaceMethod>yadif</DeinterlaceMethod>
+  <EnableDecodingColorDepth10Hevc>true</EnableDecodingColorDepth10Hevc>
+  <EnableDecodingColorDepth10Vp9>true</EnableDecodingColorDepth10Vp9>
+  <EnableEnhancedNvdecDecoder>true</EnableEnhancedNvdecDecoder>
+  <EnableHardwareEncoding>true</EnableHardwareEncoding>
+  <AllowHevcEncoding>true</AllowHevcEncoding>
+  <EnableSubtitleExtraction>true</EnableSubtitleExtraction>
+  <HardwareDecodingCodecs>
+    <string>h264</string>
+    <string>vc1</string>
+  </HardwareDecodingCodecs>
+</EncodingOptions>
