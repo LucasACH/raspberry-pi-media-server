@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  scrapyd:
+    container_name: scarpyd
+    image: vimagick/scrapyd:py3
+    restart: always
+    ports:
+      - 6800:6800
+    volumes:
+      - /home/pi/docker/scraping/scrapyd/data:/var/lib/scrapyd
+      - /usr/local/lib/python3.7/dist-packages
+
+  scrapy:
+    container_name: scarpy
+    image: vimagick/scrapyd:py3
+    restart: always
+    command: bash
+    volumes:
+      - .:/code
+    working_dir: /code
+
+  scrapyrt:
+    container_name: scarpyrt
+    image: vimagick/scrapyd:py3
+    restart: always
+    command: scrapyrt -i 0.0.0.0 -p 9080
+    ports:
+      - 9080:9080
+    volumes:
+      - .:/code
+    working_dir: /code
