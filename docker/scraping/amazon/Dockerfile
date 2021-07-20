@@ -1,4 +1,4 @@
-FROM python:3.8.10-alpine3.13
+FROM python:3
 
 WORKDIR /home/pi/docker/scraping/amazon
 
