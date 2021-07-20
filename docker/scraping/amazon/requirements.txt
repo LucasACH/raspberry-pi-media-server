@@ -2,7 +2,8 @@ Scrapy==2.5.0
 lxml==4.6.3
 parsel==1.6.0
 w3lib==1.22.0
-Twisted==18.9.0
-cryptography==2.8
-pyOpenSSL==19.0.0
+Twisted==21.2.0
+cryptography==3.4.7
+pyOpenSSL==20.0.1
 scraperapi-sdk==0.2.2
+requests==2.25.1

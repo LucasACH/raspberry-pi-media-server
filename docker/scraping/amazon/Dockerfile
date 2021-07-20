@@ -1,6 +1,6 @@
-FROM python:3
+FROM python:3.9.5-slim-buster
 
-WORKDIR /home/pi/docker/scraping/amazon
+WORKDIR /amazon
 
 COPY requirements.txt ./
 

@@ -23,7 +23,7 @@ class AmazonProductsSpider(scrapy.Spider):
 
     def appendLog(self, status):
         now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        with open("./amazon_spider.log", "a") as outfile:
+        with open("amazon/spiders/amazon_spider.log", "a") as outfile:
             outfile.writelines("%s | %s" % (now, status) + "\n")
             outfile.close()
 
@@ -99,7 +99,7 @@ class AmazonProductsSpider(scrapy.Spider):
 
 
     def writeProduct(self, product_id, items):
-        with open("../products/%s.json" % product_id, "w") as outfile:
+        with open("amazon/products/%s.json" % product_id, "w") as outfile:
             json.dump(dict(items), outfile)
             outfile.close()
 
@@ -138,7 +138,7 @@ class AmazonProductsSpider(scrapy.Spider):
         items["availability"] = parse_availability()
 
         try:
-            with open("../products/%s.json" % product_id, "r") as outfile:
+            with open("amazon/products/%s.json" % product_id, "r") as outfile:
                 product = json.load(outfile)
 
                 if not parse_price():
