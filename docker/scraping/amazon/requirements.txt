@@ -1,5 +1,4 @@
 Scrapy==2.5.0
-Scrapy==2.5.0
 lxml==4.6.3
 parsel==1.6.0
 w3lib==1.22.0
