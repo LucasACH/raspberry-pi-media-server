@@ -32,7 +32,7 @@ class AmazonProductsSpider(scrapy.Spider):
 
         msg["Subject"] = "Amazon | " + str(discount) + "% Discount"
         msg["From"] = "achaval.lucas@gmail.com"
-        msg["To"] = "achaval.lucas@gmail.com"
+        msg["To"] = ["achaval.lucas@gmail.com", "marcos.achavalr@gmail.com"]
 
         msg.set_content('''
     <!DOCTYPE html>

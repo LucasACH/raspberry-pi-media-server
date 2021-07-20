@@ -1,10 +1,10 @@
 version: "3.9"
-
 services:
-  amazon-spider:
+  amazon-scrapy:
+    build: .
     container_name: amazon-spider
-    image: amazon-spider:latest
     environment:
       - TZ=America/Argentina/Buenos_Aires
     volumes:
-      - D:/Dropbox/Lucas/Lucas 2020/Raspberry Pi/docker/scraping/amazon:/amazon
+      - /home/pi/docker/scraping/amazon:/amazon
+    

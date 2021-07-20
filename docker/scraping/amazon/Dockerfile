@@ -1,12 +1,17 @@
-FROM python:3.9.5-slim-buster
+FROM python:3.9.5
 
-WORKDIR /amazon
+WORKDIR /amazon 
 
-COPY requirements.txt ./
+COPY requirements.txt .
 
-RUN apt-get install libxml2-dev libxslt1-dev python-dev
+RUN pip install --upgrade pip
 
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN apt-get update && apt-get upgrade -y
+
+RUN apt-get install python3-lxml build-essential libssl-dev libffi-dev \
+    python3-dev cargo -y
+
+RUN pip install -r requirements.txt
 
 COPY . .
 

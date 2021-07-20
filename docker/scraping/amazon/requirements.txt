@@ -7,3 +7,4 @@ cryptography==3.4.7
 pyOpenSSL==20.0.1
 scraperapi-sdk==0.2.2
 requests==2.25.1
+
