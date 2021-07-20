@@ -1,4 +1,4 @@
-FROM python:3.9.5-slim-buster
+FROM python:3.8.10-alpine3.13
 
 WORKDIR /home/pi/docker/scraping/amazon
 
