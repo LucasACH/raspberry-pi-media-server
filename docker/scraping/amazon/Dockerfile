@@ -4,7 +4,7 @@ WORKDIR /amazon
 
 COPY requirements.txt ./
 
-RUN sudo apt-get install python3-lxml
+RUN apt-get install python3-lxml
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
