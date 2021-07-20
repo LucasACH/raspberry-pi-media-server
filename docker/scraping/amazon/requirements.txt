@@ -5,3 +5,4 @@ w3lib==1.22.0
 Twisted==18.9.0
 cryptography==2.8
 pyOpenSSL==19.0.0
+scraperapi-sdk==0.2.2
