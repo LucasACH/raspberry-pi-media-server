@@ -63,7 +63,7 @@ Now you can insert the card into the Raspberry Pi, connect the ethernet cable an
 
 ## Connecting to the Raspberry Pi
 
-Wait a couple of minutes till the Pi finishes booting. Once ready, go to your main computer and open your terminal (Powershell for Windows users) and type
+Wait a couple of minutes till the Pi finishes booting. Once ready, go to your main computer and open your terminal (Powershell for Windows users) and run
 
 `ssh pi@<RASPBERRY_IP>`
 _you can find its IP in your Router’s DHCP lease allocation table_
@@ -74,13 +74,13 @@ You are now connected to the Pi.
 
 ## Raspbian setup
 
-The first thing that I recommend doing is changing the default password that we previously entered. Simply type
+The first thing that I recommend doing is changing the default password that we previously entered. Simply run
 
 `sudo raspi-config`
 
 to enter the configuration menu. Once there navigate to **_System Options > Password_** and press Enter. Type your new password when asked.
 
-You can now update and upgrade your packages. To do that, type
+You can now update and upgrade your packages. To do that, run
 
 ```sudo apt update && sudo apt full-upgrade```
 
