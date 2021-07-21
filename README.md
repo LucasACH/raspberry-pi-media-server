@@ -1,7 +1,24 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+<br />
+<p align="center">
+  <a href="https://github.com/LucasACH">
+    <img src="https://avatars3.githubusercontent.com/u/73149577?s=460&u=1baa1defb9904624d7aad76ec37dc76d2b230c0a&v=4" alt="Logo" width="100" height="100">
+  </a>
+
+  <h3 align="center">Raspberry Pi</h3>
+
+  <p align="center">
+    Raspberry Pi home server project.
+    <br />
+    <a href="https://github.com/LucasACH/raspberry-pi"><strong>Explore the docs »</strong></a>
+  </p>
+</p>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Table of Contents
 - [Getting started](#getting-started)
   - [Hardware](#hardware)
   - [Software](#software)
@@ -16,6 +33,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Getting started
+The main reason of this project is to create a Raspberry Pi multi purpose home server, with the least setup possible. Everything is containerized using Docker and written into multiple docker-compose files for easy building. The project is separated into three stages. Raspberry setup, Docker installation and services deployment.
 
 ## Hardware
 
@@ -63,7 +81,8 @@ The first thing that I recommend doing is changing the default password that we 
 to enter the configuration menu. Once there navigate to **_System Options > Password_** and press Enter. Type your new password when asked.
 
 You can now update and upgrade your packages. To do that, type
-sudo apt update && sudo apt full-upgrade
+
+```sudo apt update && sudo apt full-upgrade```
 
 Great. You just finished setting up your Raspberry Pi. Let's start adding some stuff.
 
