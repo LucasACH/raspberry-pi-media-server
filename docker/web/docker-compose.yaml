@@ -35,7 +35,7 @@ services:
     expose:
       - 80
     volumes:
-      - /home/pi/docker/web:/usr/share/nginx/html:ro
+      - /home/pi/docker/web/nginx:/usr/share/nginx/html:ro
     environment:
       - VIRTUAL_HOST=lasudeste.duckdns.org
       - LETSENCRYPT_HOST=lasudeste.duckdns.org
