@@ -6146,3 +6146,7 @@
 2021-07-27 20:53:36.0996 Info Torznab search in 1337x => Found 19 releases 
 2021-07-27 20:53:36.1110 Info Torznab search in ETTV => Found 100 releases 
 2021-07-27 20:53:36.9026 Info Torznab search in Badass Torrents => Found 69 releases 
+2021-07-27 21:09:01.0697 Info Torznab search in EZTV => Found 90 releases (from cache) 
+2021-07-27 21:09:01.0697 Info Torznab search in 1337x => Found 19 releases (from cache) 
+2021-07-27 21:09:01.0697 Info Torznab search in ETTV => Found 100 releases (from cache) 
+2021-07-27 21:09:01.0792 Info Torznab search in Badass Torrents => Found 69 releases (from cache) 

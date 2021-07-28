@@ -1,3 +1,14 @@
 *.mp4
 *.mkv
-./docker/seedbox/downloads
+./seedbox/downloads
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+.profile
+.python_history
+.selected_editor
+.viminfo
+.wget-hsts
+./.ssh
+./.cache
