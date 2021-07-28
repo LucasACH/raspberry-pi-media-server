@@ -1,0 +1,264 @@
+[2021-07-25 01:27:42.077 -03:00] [INF] [198] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2021-07-25 01:27:42.080 -03:00] [INF] [198] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2021-07-25 01:27:42.080 -03:00] [INF] [203] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2021-07-25 01:27:42.081 -03:00] [INF] [203] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/tv"
+[2021-07-25 01:27:42.081 -03:00] [INF] [203] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/movies"
+[2021-07-25 01:27:42.081 -03:00] [INF] [203] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2021-07-25 01:27:42.231 -03:00] [INF] [225] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 01:27:42.232 -03:00] [INF] [149] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-25 01:27:42.232 -03:00] [INF] [130] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-25 01:27:42.232 -03:00] [INF] [225] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 02:00:00.007 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Extract Chapter Images"
+[2021-07-25 02:00:00.008 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "ChapterImagesTask"
+[2021-07-25 02:00:00.010 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Extract Chapter Images"
+[2021-07-25 02:00:00.030 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 02:00:00.032 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 02:00:01.010 -03:00] [INF] [186] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 07/26/2021 02:00, which is 23:59:58.989881 from now.
+[2021-07-25 11:24:01.440 -03:00] [INF] [221] Emby.Server.Implementations.IO.LibraryMonitor: "movies" ("/downloads/movies") will be refreshed.
+[2021-07-25 11:24:01.583 -03:00] [INF] [67] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Movie", Name: "F9", Path: "/downloads/movies/Fast and Furious 9  (2021) 1080p F9 English HEVC HDCAM x264 AAC By Full4Movies.mkv", Id: 7879f8dd-da67-e0d1-3a91-297bdc2c31b9
+[2021-07-25 13:26:47.351 -03:00] [INF] [130] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Update Plugins"
+[2021-07-25 13:26:47.351 -03:00] [INF] [130] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2021-07-25 13:26:47.352 -03:00] [INF] [130] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2021-07-25 13:26:49.327 -03:00] [INF] [182] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2021-07-25 13:26:49.329 -03:00] [INF] [182] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 13:27:42.239 -03:00] [INF] [249] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2021-07-25 13:27:42.240 -03:00] [INF] [249] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2021-07-25 13:27:42.241 -03:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2021-07-25 13:27:42.241 -03:00] [INF] [74] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/tv"
+[2021-07-25 13:27:42.241 -03:00] [INF] [74] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/movies"
+[2021-07-25 13:27:42.241 -03:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2021-07-25 13:27:42.305 -03:00] [INF] [274] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "78bbba1c211b327bff547fc39e1137e2" "One Race" "Studio".
+[2021-07-25 13:27:42.306 -03:00] [INF] [274] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "One Race", Path: "/config/metadata/Studio/One Race", Id: 78bbba1c-211b-327b-ff54-7fc39e1137e2
+[2021-07-25 13:27:42.368 -03:00] [INF] [274] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "d279ab6207e6c1e4e41927c819895bf4" "Original Film" "Studio".
+[2021-07-25 13:27:42.368 -03:00] [INF] [274] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Original Film", Path: "/config/metadata/Studio/Original Film", Id: d279ab62-07e6-c1e4-e419-27c819895bf4
+[2021-07-25 13:27:42.411 -03:00] [INF] [274] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "b9e481b5160c078586bd6f92d144a72a" "Perfect Storm Entertainment" "Studio".
+[2021-07-25 13:27:42.411 -03:00] [INF] [274] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Perfect Storm Entertainment", Path: "/config/metadata/Studio/Perfect Storm Entertainment", Id: b9e481b5-160c-0785-86bd-6f92d144a72a
+[2021-07-25 13:27:42.453 -03:00] [INF] [274] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "865ed4072253dfb57a61ceaeeb49b1d9" "ZXY MOVIES" "Studio".
+[2021-07-25 13:27:42.453 -03:00] [INF] [274] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "ZXY MOVIES", Path: "/config/metadata/Studio/ZXY MOVIES", Id: 865ed407-2253-dfb5-7a61-ceaeeb49b1d9
+[2021-07-25 13:27:42.515 -03:00] [INF] [274] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 13:27:42.517 -03:00] [INF] [180] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-25 13:27:42.518 -03:00] [INF] [274] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 13:27:42.518 -03:00] [INF] [184] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-25 18:53:52.901 -03:00] [INF] [131] Emby.Server.Implementations.IO.LibraryMonitor: "movies" ("/downloads/movies") will be refreshed.
+[2021-07-25 18:53:53.024 -03:00] [INF] [161] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Movie", Name: "Divergent", Path: "/downloads/movies/Divergent (2014)/Divergent.2014.720p.BluRay.x264.YIFY.mp4", Id: 77f85286-6232-d8c7-ada7-24cf29fb72cb
+[2021-07-25 18:53:53.095 -03:00] [INF] [161] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Movie", Name: "A Quiet Place Part II", Path: "/downloads/movies/A Quiet Place Part II 2021 720p BRRip x264 700MB - ShortRips.mkv", Id: 11e9e6a5-969d-819c-b735-6a703cd18eb6
+[2021-07-25 18:53:53.183 -03:00] [INF] [131] Emby.Server.Implementations.IO.LibraryMonitor: "movies" ("/downloads/movies") will be refreshed.
+[2021-07-25 18:59:19.159 -03:00] [INF] [191] Emby.Server.Implementations.IO.LibraryMonitor: "movies" ("/downloads/movies") will be refreshed.
+[2021-07-25 18:59:30.479 -03:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2021-07-25 18:59:30.489 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2021-07-25 18:59:30.490 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2021-07-25 18:59:30.492 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2021-07-25 18:59:30.493 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2021-07-25 18:59:30.493 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2021-07-25 18:59:30.495 -03:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2021-07-25 18:59:30.495 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2021-07-25 18:59:30.500 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2021-07-25 18:59:30.505 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2021-07-25 18:59:30.510 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2021-07-25 18:59:30.517 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2021-07-25 18:59:30.527 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpDevicePublisher
+[2021-07-25 18:59:30.645 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2021-07-25 18:59:30.648 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2021-07-25 18:59:30.650 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2021-07-25 18:59:30.652 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2021-07-25 18:59:30.656 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 2 sendSockets
+[2021-07-25 18:59:30.656 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2021-07-25 18:59:30.656 -03:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.19.0.3"
+[2021-07-25 18:59:30.659 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2021-07-25 18:59:30.665 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2021-07-25 18:59:30.665 -03:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2021-07-25 18:59:35.134 -03:00] [INF] [1] Main: Jellyfin version: "10.7.6"
+[2021-07-25 18:59:35.201 -03:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_PublishedServerUrl, http://example.com]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_MEDIA_DIR, /media]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[DOTNET_SYSTEM_GLOBALIZATION_INVARIANT, 1]"]
+[2021-07-25 18:59:35.214 -03:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2021-07-25 18:59:35.217 -03:00] [INF] [1] Main: Operating system: "Linux"
+[2021-07-25 18:59:35.217 -03:00] [INF] [1] Main: Architecture: Arm
+[2021-07-25 18:59:35.223 -03:00] [INF] [1] Main: 64-Bit Process: False
+[2021-07-25 18:59:35.223 -03:00] [INF] [1] Main: User Interactive: True
+[2021-07-25 18:59:35.224 -03:00] [INF] [1] Main: Processor count: 4
+[2021-07-25 18:59:35.224 -03:00] [INF] [1] Main: Program data path: "/config"
+[2021-07-25 18:59:35.224 -03:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2021-07-25 18:59:35.225 -03:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2021-07-25 18:59:36.154 -03:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2021-07-25 18:59:36.358 -03:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[127.0.0.1/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2021-07-25 18:59:36.359 -03:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2021-07-25 18:59:36.361 -03:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[127.0.0.1/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2021-07-25 18:59:36.396 -03:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2021-07-25 18:59:36.396 -03:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2021-07-25 18:59:36.505 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2021-07-25 18:59:42.573 -03:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.7.6.0"
+[2021-07-25 18:59:42.575 -03:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.7.6.0"
+[2021-07-25 18:59:42.577 -03:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.7.6.0"
+[2021-07-25 18:59:42.857 -03:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2021-07-25 18:59:44.363 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2021-07-25 18:59:44.626 -03:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 07/26/2021 02:00, which is 7:00:15.3744115 from now.
+[2021-07-25 18:59:44.883 -03:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "4.3.2"
+[2021-07-25 18:59:45.036 -03:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["h264", "h264_mmal", "hevc", "mpeg2video", "mpeg2_mmal", "mpeg4", "mpeg4_mmal", "msmpeg4", "vc1_mmal", "aac", "ac3", "flac", "mp3"]
+[2021-07-25 18:59:45.103 -03:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_omx", "h264_v4l2m2m", "libx265", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2021-07-25 18:59:45.159 -03:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["vdpau", "drm"]
+[2021-07-25 18:59:45.161 -03:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: SetByArgument: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2021-07-25 18:59:45.165 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "24ffe84841c54d368bceac46e515e474"
+[2021-07-25 18:59:45.649 -03:00] [INF] [1] Emby.Dlna.Main.DlnaEntryPoint: Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.19.0.3/16"
+[2021-07-25 18:59:45.695 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.4690397
+[2021-07-25 18:59:45.696 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2021-07-25 18:59:46.320 -03:00] [INF] [7] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-25 18:59:46.321 -03:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-25 18:59:46.340 -03:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.6431671
+[2021-07-25 18:59:46.341 -03:00] [INF] [1] Main: Startup complete 0:00:11.8731858
+[2021-07-25 18:59:47.645 -03:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2021-07-25 18:59:47.649 -03:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2021-07-25 18:59:47.661 -03:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2021-07-25 18:59:50.836 -03:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2021-07-25 18:59:50.957 -03:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 19:00:09.609 -03:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/System/Info/Public" to "181.21.12.135" in 0:00:00.7251118 with Status Code 200
+[2021-07-25 19:00:12.222 -03:00] [WRN] [23] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/Users/e0e678f6e3e54135ba834ab770e9de6d" to "181.21.12.135" in 0:00:00.5240092 with Status Code 200
+[2021-07-25 19:00:12.957 -03:00] [WRN] [22] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/DisplayPreferences/usersettings?userId=e0e678f6e3e54135ba834ab770e9de6d&client=emby" to "181.21.12.135" in 0:00:01.2592233 with Status Code 200
+[2021-07-25 19:00:13.462 -03:00] [WRN] [19] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/Sessions/Capabilities/Full" to "181.21.12.135" in 0:00:01.7739431 with Status Code 204
+[2021-07-25 19:00:13.724 -03:00] [WRN] [7] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/Users/e0e678f6e3e54135ba834ab770e9de6d/Items/f137a2dd21bbc1b99aa5c0f6bf02a805" to "181.21.12.135" in 0:00:00.5298597 with Status Code 200
+[2021-07-25 19:00:13.726 -03:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "https://peliculux.duckdns.org/Users/e0e678f6e3e54135ba834ab770e9de6d/Views" to "181.21.12.135" in 0:00:00.5315135 with Status Code 200
+[2021-07-25 22:30:36.963 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2021-07-25 22:30:36.964 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2021-07-25 22:30:36.966 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2021-07-25 22:30:37.001 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 22:30:37.007 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 22:30:37.093 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2021-07-25 22:30:37.094 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2021-07-25 22:30:37.094 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2021-07-25 22:30:37.102 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 22:30:37.103 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 22:30:37.173 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2021-07-25 22:30:37.173 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2021-07-25 22:30:37.174 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2021-07-25 22:30:37.179 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 22:30:37.181 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 22:30:37.249 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2021-07-25 22:30:37.249 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2021-07-25 22:30:37.249 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2021-07-25 22:30:37.265 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 22:30:37.266 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 22:30:37.347 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2021-07-25 22:30:37.347 -03:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2021-07-25 22:30:37.348 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2021-07-25 22:30:37.361 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-25 22:30:37.363 -03:00] [INF] [115] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 23:30:37.787 -03:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh People"
+[2021-07-25 23:30:37.788 -03:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PeopleValidationTask"
+[2021-07-25 23:30:37.790 -03:00] [INF] [59] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh People"
+[2021-07-25 23:30:39.101 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "2b14db6002ac8d221567e5bb8defb655" "Alfredo Botello" "Person".
+[2021-07-25 23:30:39.112 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Alfredo Botello", Path: "/config/metadata/People/A/Alfredo Botello", Id: 2b14db60-02ac-8d22-1567-e5bb8defb655
+[2021-07-25 23:30:39.164 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "08823beb5673fabe03293774b28df471" "Allyson Seeger" "Person".
+[2021-07-25 23:30:39.165 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Allyson Seeger", Path: "/config/metadata/People/A/Allyson Seeger", Id: 08823beb-5673-fabe-0329-3774b28df471
+[2021-07-25 23:30:39.209 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "82ec04ea66a978e7ec8e6bae50ac6639" "Amy Newbold" "Person".
+[2021-07-25 23:30:39.209 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Amy Newbold", Path: "/config/metadata/People/A/Amy Newbold", Id: 82ec04ea-66a9-78e7-ec8e-6bae50ac6639
+[2021-07-25 23:30:39.250 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "a8a6252b8850c4b4a54e71438e61dd52" "Andrew Form" "Person".
+[2021-07-25 23:30:39.250 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Andrew Form", Path: "/config/metadata/People/A/Andrew Form", Id: a8a6252b-8850-c4b4-a54e-71438e61dd52
+[2021-07-25 23:30:39.295 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "403ec6589bdbdd96600a2fa5a4e233a7" "Andy Rich" "Person".
+[2021-07-25 23:30:39.299 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Andy Rich", Path: "/config/metadata/People/A/Andy Rich", Id: 403ec658-9bdb-dd96-600a-2fa5a4e233a7
+[2021-07-25 23:30:39.347 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "cedf3bd1714c7842bb277d8cbe9b49ba" "Anna Sawai" "Person".
+[2021-07-25 23:30:39.348 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Anna Sawai", Path: "/config/metadata/People/A/Anna Sawai", Id: cedf3bd1-714c-7842-bb27-7d8cbe9b49ba
+[2021-07-25 23:30:39.394 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "63481c1500464c8ca15ea0f2de9ad3fb" "Ashley Dyke" "Person".
+[2021-07-25 23:30:39.394 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Ashley Dyke", Path: "/config/metadata/People/A/Ashley Dyke", Id: 63481c15-0046-4c8c-a15e-a0f2de9ad3fb
+[2021-07-25 23:30:39.442 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "8fc28b662fb3a45eb3064f4566468a50" "Ashley Judd" "Person".
+[2021-07-25 23:30:39.442 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Ashley Judd", Path: "/config/metadata/People/A/Ashley Judd", Id: 8fc28b66-2fb3-a45e-b306-4f4566468a50
+[2021-07-25 23:30:39.491 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "0b33d46a88cc70806eb98569fe27620a" "Ben Lloyd-Hughes" "Person".
+[2021-07-25 23:30:39.491 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Ben Lloyd-Hughes", Path: "/config/metadata/People/B/Ben Lloyd-Hughes", Id: 0b33d46a-88cc-7080-6eb9-8569fe27620a
+[2021-07-25 23:30:39.538 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "2996653ea337807afb0cccd3e8fad2b9" "Blake DeLong" "Person".
+[2021-07-25 23:30:39.539 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Blake DeLong", Path: "/config/metadata/People/B/Blake DeLong", Id: 2996653e-a337-807a-fb0c-ccd3e8fad2b9
+[2021-07-25 23:30:39.590 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "b6432bffb652592aaa68eb22ce115a42" "Bradley Fuller" "Person".
+[2021-07-25 23:30:39.591 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Bradley Fuller", Path: "/config/metadata/People/B/Bradley Fuller", Id: b6432bff-b652-592a-aa68-eb22ce115a42
+[2021-07-25 23:30:39.637 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "5fe7dddf556862bb49cf5b56215c06d4" "Bryan Woods" "Person".
+[2021-07-25 23:30:39.637 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Bryan Woods", Path: "/config/metadata/People/B/Bryan Woods", Id: 5fe7dddf-5568-62bb-49cf-5b56215c06d4
+[2021-07-25 23:30:39.686 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "e5acab0d8541ee7a5988671d37cbf360" "Charlize Theron" "Person".
+[2021-07-25 23:30:39.686 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Charlize Theron", Path: "/config/metadata/People/C/Charlize Theron", Id: e5acab0d-8541-ee7a-5988-671d37cbf360
+[2021-07-25 23:30:39.735 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "0680549b8533bd3312e347a692385c85" "Christian Madsen" "Person".
+[2021-07-25 23:30:39.735 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Christian Madsen", Path: "/config/metadata/People/C/Christian Madsen", Id: 0680549b-8533-bd33-12e3-47a692385c85
+[2021-07-25 23:30:39.784 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "0d8cb6c3fc757f68c88d27635cab70ae" "Cillian Murphy" "Person".
+[2021-07-25 23:30:39.784 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Cillian Murphy", Path: "/config/metadata/People/C/Cillian Murphy", Id: 0d8cb6c3-fc75-7f68-c88d-27635cab70ae
+[2021-07-25 23:30:39.844 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "d7382089ec7c700f7acfd7e9031793c5" "Clayton Townsend" "Person".
+[2021-07-25 23:30:39.844 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Clayton Townsend", Path: "/config/metadata/People/C/Clayton Townsend", Id: d7382089-ec7c-700f-7acf-d7e9031793c5
+[2021-07-25 23:30:39.902 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "ab65c2b5d1e74a8ec47b19c5a16233d9" "Daniel Casey" "Person".
+[2021-07-25 23:30:39.902 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Daniel Casey", Path: "/config/metadata/People/D/Daniel Casey", Id: ab65c2b5-d1e7-4a8e-c47b-19c5a16233d9
+[2021-07-25 23:30:39.953 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "df8c9d146fad967755e801b25d127ed7" "Djimon Hounsou" "Person".
+[2021-07-25 23:30:39.953 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Djimon Hounsou", Path: "/config/metadata/People/D/Djimon Hounsou", Id: df8c9d14-6fad-9677-55e8-01b25d127ed7
+[2021-07-25 23:30:40.000 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "28e8f4bc2a19c02b985103996fa739e9" "Emily Blunt" "Person".
+[2021-07-25 23:30:40.001 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Emily Blunt", Path: "/config/metadata/People/E/Emily Blunt", Id: 28e8f4bc-2a19-c02b-9851-03996fa739e9
+[2021-07-25 23:30:40.052 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "bb6ba438cfa5d726c0de5662f9b8f4cf" "Evan Daugherty" "Person".
+[2021-07-25 23:30:40.053 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Evan Daugherty", Path: "/config/metadata/People/E/Evan Daugherty", Id: bb6ba438-cfa5-d726-c0de-5662f9b8f4cf
+[2021-07-25 23:30:40.101 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "d87d8196b4b41cf607673510ced14c8b" "Gary Scott Thompson" "Person".
+[2021-07-25 23:30:40.102 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Gary Scott Thompson", Path: "/config/metadata/People/G/Gary Scott Thompson", Id: d87d8196-b4b4-1cf6-0767-3510ced14c8b
+[2021-07-25 23:30:40.155 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "39eabc308538dfc350d2d6521ac02476" "Helen Mirren" "Person".
+[2021-07-25 23:30:40.157 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Helen Mirren", Path: "/config/metadata/People/H/Helen Mirren", Id: 39eabc30-8538-dfc3-50d2-d6521ac02476
+[2021-07-25 23:30:40.205 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "7cece8f1c4eb9b7a5c5a90dd615e6079" "Jeff Kirschenbaum" "Person".
+[2021-07-25 23:30:40.205 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Jeff Kirschenbaum", Path: "/config/metadata/People/J/Jeff Kirschenbaum", Id: 7cece8f1-c4eb-9b7a-5c5a-90dd615e6079
+[2021-07-25 23:30:40.251 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "f578f6ab6a97bd517829589814a03fcb" "JoAnn Perritano" "Person".
+[2021-07-25 23:30:40.252 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "JoAnn Perritano", Path: "/config/metadata/People/J/JoAnn Perritano", Id: f578f6ab-6a97-bd51-7829-589814a03fcb
+[2021-07-25 23:30:40.300 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "5424fe1b60a49c6d856507777eba15ce" "Joe Roth" "Person".
+[2021-07-25 23:30:40.300 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Joe Roth", Path: "/config/metadata/People/J/Joe Roth", Id: 5424fe1b-60a4-9c6d-8565-07777eba15ce
+[2021-07-25 23:30:40.346 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "25e9deb81ce3103670a20182a7b0ebf8" "John Cena" "Person".
+[2021-07-25 23:30:40.347 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "John Cena", Path: "/config/metadata/People/J/John Cena", Id: 25e9deb8-1ce3-1036-70a2-0182a7b0ebf8
+[2021-07-25 23:30:40.394 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "b95480ccf4db37102edb13cf70c8844b" "John J. Kelly" "Person".
+[2021-07-25 23:30:40.394 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "John J. Kelly", Path: "/config/metadata/People/J/John J. Kelly", Id: b95480cc-f4db-3710-2edb-13cf70c8844b
+[2021-07-25 23:30:40.443 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "9b60dd143630cde612f03063c2bc97d8" "John Krasinski" "Person".
+[2021-07-25 23:30:40.443 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "John Krasinski", Path: "/config/metadata/People/J/John Krasinski", Id: 9b60dd14-3630-cde6-12f0-3063c2bc97d8
+[2021-07-25 23:30:40.496 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "3c6ff31deba4415c1af14588c64915a8" "Jordana Brewster" "Person".
+[2021-07-25 23:30:40.496 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Jordana Brewster", Path: "/config/metadata/People/J/Jordana Brewster", Id: 3c6ff31d-eba4-415c-1af1-4588c64915a8
+[2021-07-25 23:30:40.546 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "e4946a8fff2a14c6dd32e653c9215d8b" "Justin Lin" "Person".
+[2021-07-25 23:30:40.547 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Justin Lin", Path: "/config/metadata/People/J/Justin Lin", Id: e4946a8f-ff2a-14c6-dd32-e653c9215d8b
+[2021-07-25 23:30:40.595 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "abc45a4d3c948f8cf21a9cd304e2729f" "Kurt Russell" "Person".
+[2021-07-25 23:30:40.595 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Kurt Russell", Path: "/config/metadata/People/K/Kurt Russell", Id: abc45a4d-3c94-8f8c-f21a-9cd304e2729f
+[2021-07-25 23:30:40.648 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "b74e6fb4d483351f2802a8c0a224319e" "Lauren-Ashley Cristiano" "Person".
+[2021-07-25 23:30:40.649 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Lauren-Ashley Cristiano", Path: "/config/metadata/People/L/Lauren-Ashley Cristiano", Id: b74e6fb4-d483-351f-2802-a8c0a224319e
+[2021-07-25 23:30:40.695 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "5297c55c3a955f9064e996ecfc477848" "Liz Cameron" "Person".
+[2021-07-25 23:30:40.695 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Liz Cameron", Path: "/config/metadata/People/L/Liz Cameron", Id: 5297c55c-3a95-5f90-64e9-96ecfc477848
+[2021-07-25 23:30:40.745 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "197fb35b36fc5d73b96cd13328fe9456" "Lucas Black" "Person".
+[2021-07-25 23:30:40.745 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Lucas Black", Path: "/config/metadata/People/L/Lucas Black", Id: 197fb35b-36fc-5d73-b96c-d13328fe9456
+[2021-07-25 23:30:40.796 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "d283d47070e1081f96356b0e4141f44a" "Ludacris" "Person".
+[2021-07-25 23:30:40.796 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Ludacris", Path: "/config/metadata/People/L/Ludacris", Id: d283d470-70e1-081f-9635-6b0e4141f44a
+[2021-07-25 23:30:40.841 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "151d46989b0807ae84236bca1ed6205e" "Michael Bay" "Person".
+[2021-07-25 23:30:40.841 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Michael Bay", Path: "/config/metadata/People/M/Michael Bay", Id: 151d4698-9b08-07ae-8423-6bca1ed6205e
+[2021-07-25 23:30:40.889 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "665a1d6154b86a580568f6758ce169a3" "Michelle Rodriguez" "Person".
+[2021-07-25 23:30:40.894 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Michelle Rodriguez", Path: "/config/metadata/People/M/Michelle Rodriguez", Id: 665a1d61-54b8-6a58-0568-f6758ce169a3
+[2021-07-25 23:30:40.943 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "c6d8f6e6d94bd17abeca39ea8ffa2dbd" "Millicent Simmonds" "Person".
+[2021-07-25 23:30:40.943 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Millicent Simmonds", Path: "/config/metadata/People/M/Millicent Simmonds", Id: c6d8f6e6-d94b-d17a-beca-39ea8ffa2dbd
+[2021-07-25 23:30:40.990 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "4ff34e6c311cb1c54b0468cfd575e509" "Nathalie Emmanuel" "Person".
+[2021-07-25 23:30:40.991 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Nathalie Emmanuel", Path: "/config/metadata/People/N/Nathalie Emmanuel", Id: 4ff34e6c-311c-b1c5-4b04-68cfd575e509
+[2021-07-25 23:30:41.036 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "088beada8778bbca0112ca35838bf5ff" "Neal H. Moritz" "Person".
+[2021-07-25 23:30:41.036 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Neal H. Moritz", Path: "/config/metadata/People/N/Neal H. Moritz", Id: 088beada-8778-bbca-0112-ca35838bf5ff
+[2021-07-25 23:30:41.082 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "aee909a114323c49d80d0eff55efb5ad" "Noah Jupe" "Person".
+[2021-07-25 23:30:41.083 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Noah Jupe", Path: "/config/metadata/People/N/Noah Jupe", Id: aee909a1-1432-3c49-d80d-0eff55efb5ad
+[2021-07-25 23:30:41.128 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "565c29b8b89bc5b4592d3c12cee80e53" "Okieriete Onaodowan" "Person".
+[2021-07-25 23:30:41.128 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Okieriete Onaodowan", Path: "/config/metadata/People/O/Okieriete Onaodowan", Id: 565c29b8-b89b-c5b4-592d-3c12cee80e53
+[2021-07-25 23:30:41.175 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "8bc69ec77cb74da9cb37f00d0f1511fc" "Rachel Shane" "Person".
+[2021-07-25 23:30:41.175 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Rachel Shane", Path: "/config/metadata/People/R/Rachel Shane", Id: 8bc69ec7-7cb7-4da9-cb37-f00d0f1511fc
+[2021-07-25 23:30:41.227 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "e1e2f81557d1ac9ff42866243b608f74" "Samantha Vincent" "Person".
+[2021-07-25 23:30:41.227 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Samantha Vincent", Path: "/config/metadata/People/S/Samantha Vincent", Id: e1e2f815-57d1-ac9f-f428-66243b608f74
+[2021-07-25 23:30:41.278 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "a0ca24c8bcfd4a576db7287b84acfd67" "Scott Beck" "Person".
+[2021-07-25 23:30:41.278 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Scott Beck", Path: "/config/metadata/People/S/Scott Beck", Id: a0ca24c8-bcfd-4a57-6db7-287b84acfd67
+[2021-07-25 23:30:41.324 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "53edfea5fabeb590e1212998f6e649c3" "Scott Matheny" "Person".
+[2021-07-25 23:30:41.324 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Scott Matheny", Path: "/config/metadata/People/S/Scott Matheny", Id: 53edfea5-fabe-b590-e121-2998f6e649c3
+[2021-07-25 23:30:41.374 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "a892ce0b0bac88101f78dda891b9512b" "Shad Moss" "Person".
+[2021-07-25 23:30:41.374 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Shad Moss", Path: "/config/metadata/People/S/Shad Moss", Id: a892ce0b-0bac-8810-1f78-dda891b9512b
+[2021-07-25 23:30:41.422 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "e1b973ad19a71b6f1cb4c4223f51ecf4" "Silas Pereira-Olson" "Person".
+[2021-07-25 23:30:41.423 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Silas Pereira-Olson", Path: "/config/metadata/People/S/Silas Pereira-Olson", Id: e1b973ad-19a7-1b6f-1cb4-c4223f51ecf4
+[2021-07-25 23:30:41.469 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "4459d57dfe0779173072084da44a3113" "Sung Kang" "Person".
+[2021-07-25 23:30:41.470 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Sung Kang", Path: "/config/metadata/People/S/Sung Kang", Id: 4459d57d-fe07-7917-3072-084da44a3113
+[2021-07-25 23:30:41.514 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "f0efb7d4233d4b25c80ee3af2c507886" "Tony Goldwyn" "Person".
+[2021-07-25 23:30:41.515 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Tony Goldwyn", Path: "/config/metadata/People/T/Tony Goldwyn", Id: f0efb7d4-233d-4b25-c80e-e3af2c507886
+[2021-07-25 23:30:41.560 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "43aa9cd31adb45f637bbfc76bd08352e" "Tyrese Gibson" "Person".
+[2021-07-25 23:30:41.560 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Tyrese Gibson", Path: "/config/metadata/People/T/Tyrese Gibson", Id: 43aa9cd3-1adb-45f6-37bb-fc76bd08352e
+[2021-07-25 23:30:41.615 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "4e8e63e7c82ce24d332676afb8f5a853" "Vanessa Taylor" "Person".
+[2021-07-25 23:30:41.615 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Vanessa Taylor", Path: "/config/metadata/People/V/Vanessa Taylor", Id: 4e8e63e7-c82c-e24d-3326-76afb8f5a853
+[2021-07-25 23:30:41.663 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "01c9058b6ca0a3fceae88bfe2f5ac840" "Vin Diesel" "Person".
+[2021-07-25 23:30:41.664 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Vin Diesel", Path: "/config/metadata/People/V/Vin Diesel", Id: 01c9058b-6ca0-a3fc-eae8-8bfe2f5ac840
+[2021-07-25 23:30:41.712 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "b210f448e0dcecf3ba0421f9d15bdae3" "Vincent Sinclair Diesel" "Person".
+[2021-07-25 23:30:41.713 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Vincent Sinclair Diesel", Path: "/config/metadata/People/V/Vincent Sinclair Diesel", Id: b210f448-e0dc-ecf3-ba04-21f9d15bdae3
+[2021-07-25 23:30:41.758 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Deleting dead "66184adadd0465d177743a77b0bebf6b" "Wayne Duvall" "Person".
+[2021-07-25 23:30:41.759 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Person", Name: "Wayne Duvall", Path: "/config/metadata/People/W/Wayne Duvall", Id: 66184ada-dd04-65d1-7774-3a77b0bebf6b
+[2021-07-25 23:30:41.811 -03:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: People validation complete
+[2021-07-25 23:30:41.813 -03:00] [INF] [59] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh People" Completed after 0 minute(s) and 4 seconds
+[2021-07-25 23:30:41.815 -03:00] [INF] [59] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-25 23:30:53.838 -03:00] [INF] [99] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2021-07-25 23:30:53.839 -03:00] [INF] [99] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2021-07-25 23:30:53.839 -03:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2021-07-25 23:30:57.030 -03:00] [INF] [52] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2021-07-25 23:30:57.056 -03:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2021-07-25 23:30:57.057 -03:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks

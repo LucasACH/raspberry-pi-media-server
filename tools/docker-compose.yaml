@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  portainer-ce:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    restart: always
+    ports:
+      - 8000:8000
+      - 9000:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/pi/tools/portainer:/data
+
+  samba:
+    container_name: samba
+    image: dperson/samba:rpi
+    restart: always
+    command: '-u "pi;password" -s "downloads;/downloads;yes;no"'
+    stdin_open: true
+    tty: true
+    ports:
+      - 139:130
+      - 445:445
+    volumes:
+      - /usr/share/zoneinfo/America/Argentina/Buenos_Aires:/etc/localtime
+      - /home/pi/seedbox/downloads:/downloads

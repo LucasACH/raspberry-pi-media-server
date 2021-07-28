@@ -1,1 +1,0 @@
-{"StartTimeUtc":"2021-07-19T05:00:00.0164418Z","EndTimeUtc":"2021-07-19T05:00:00.0520072Z","Status":"Completed","Name":"Extract Chapter Images","Key":"RefreshChapterImages","Id":"13e82435eb8f2cdc78c9e106fb7edd05"}

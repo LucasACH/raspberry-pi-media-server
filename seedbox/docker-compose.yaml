@@ -1,0 +1,78 @@
+version: "3.9"
+services:
+  deluge:
+    container_name: deluge
+    image: ghcr.io/linuxserver/deluge
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+      - DELUGE_LOGLEVEL=error #optional
+    volumes:
+      - /home/pi/seedbox/deluge/config:/config
+      - /home/pi/seedbox/downloads:/downloads
+    ports:
+      - 8112:8112
+      - 6881:6881
+      - 6881:6881/udp
+ 
+  jackett:
+    container_name: jackett
+    image: ghcr.io/linuxserver/jackett
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+      - AUTO_UPDATE=true
+      - RUN_OPTS=<run options here>
+    volumes:
+      - /home/pi/seedbox/jackett/config:/config
+    ports:
+      - 9117:9117
+
+  radarr:
+    container_name: radarr
+    image: ghcr.io/linuxserver/radarr
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - /home/pi/seedbox/radarr/config:/config
+      - /home/pi/seedbox/downloads/movies:/movies
+    ports:
+      - 7878:7878
+
+  sonarr:
+    container_name: sonarr
+    image: ghcr.io/linuxserver/sonarr
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - /home/pi/seedbox/sonarr/config:/config
+      - /home/pi/seedbox/downloads/tv:/tv
+    ports:
+      - 8989:8989
+
+  jellyfin:
+    container_name: jellyfin
+    image: jellyfin/jellyfin
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Argentina/Buenos_Aires
+      - JELLYFIN_PublishedServerUrl=http://example.com
+    volumes:
+      - /home/pi/seedbox/jellyfin:/config
+      - /home/pi/seedbox/jellyfin/cache:/cache
+      - /home/pi/seedbox/downloads:/downloads
+      # Optional - alternative address used for autodiscovery
+    ports:
+      - 8096:8096

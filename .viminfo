@@ -1,0 +1,68 @@
+# Vim 8.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
+|2,0,1626034067,,"q!"
+:wq!
+|2,0,1626034061,,"wq!"
+:wq
+|2,0,1626034053,,"wq"
+:qa!
+|2,0,1626033863,,"qa!"
+:.,.+1!
+|2,0,1626033644,,".,.+1!"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+
+# Marcas en el archivo:
+'0  6  13  /etc/hosts
+|4,48,6,13,1626034067,"/etc/hosts"
+'1  7  23  /etc/hosts
+|4,49,7,23,1626033863,"/etc/hosts"
+'2  1  0  /etc/hosts
+|4,50,1,0,1626033652,"/etc/hosts"
+'3  1  0  /etc/hosts
+|4,51,1,0,1626033652,"/etc/hosts"
+'4  1  0  /etc/hosts
+|4,52,1,0,1626033652,"/etc/hosts"
+'5  1  0  /etc/hosts
+|4,53,1,0,1626033652,"/etc/hosts"
+
+# Lista de saltos (el más reciente va primero):
+-'  6  13  /etc/hosts
+|4,39,6,13,1626034067,"/etc/hosts"
+-'  7  23  /etc/hosts
+|4,39,7,23,1626033863,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1626033717,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1626033717,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1626033652,"/etc/hosts"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> /etc/hosts
+	*	1626034061	0
+	"	6	13
+	^	6	14
+	.	7	0
+	+	7	0

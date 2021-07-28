@@ -1,0 +1,78 @@
+[2021-07-26 01:27:42.518 -03:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2021-07-26 01:27:42.523 -03:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2021-07-26 01:27:42.528 -03:00] [INF] [24] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2021-07-26 01:27:42.542 -03:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/tv"
+[2021-07-26 01:27:42.545 -03:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/movies"
+[2021-07-26 01:27:42.556 -03:00] [INF] [24] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2021-07-26 01:27:43.065 -03:00] [INF] [23] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/168cd0bff10b4fae99d8a20aa73176a8.png"
+[2021-07-26 01:27:44.024 -03:00] [INF] [23] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/168cd0bff10b4fae99d8a20aa73176a8.png"
+[2021-07-26 01:27:44.701 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/1ce36f56c77f4deaa23aeb1400ae4d83.png"
+[2021-07-26 01:27:45.505 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/1ce36f56c77f4deaa23aeb1400ae4d83.png"
+[2021-07-26 01:27:45.635 -03:00] [INF] [103] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/070be9750b92480db5e6450e54ee5bbc.png"
+[2021-07-26 01:27:46.428 -03:00] [INF] [103] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/070be9750b92480db5e6450e54ee5bbc.png"
+[2021-07-26 01:27:46.548 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/6e75b53b643b45e3b6eb3a9d3c8a27e3.png"
+[2021-07-26 01:27:47.361 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/6e75b53b643b45e3b6eb3a9d3c8a27e3.png"
+[2021-07-26 01:27:47.486 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/489e2362ab79469c882cf59c81333720.png"
+[2021-07-26 01:27:48.274 -03:00] [INF] [78] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/489e2362ab79469c882cf59c81333720.png"
+[2021-07-26 01:27:53.355 -03:00] [INF] [78] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "7401baee7a70c10835ce0804643a9b44" "Paramount" "Studio".
+[2021-07-26 01:27:53.357 -03:00] [INF] [78] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Paramount", Path: "/config/metadata/Studio/Paramount", Id: 7401baee-7a70-c108-35ce-0804643a9b44
+[2021-07-26 01:27:53.401 -03:00] [INF] [78] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "2207b16a2468146294aa6352d4889aaf" "Platinum Dunes" "Studio".
+[2021-07-26 01:27:53.403 -03:00] [INF] [78] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Platinum Dunes", Path: "/config/metadata/Studio/Platinum Dunes", Id: 2207b16a-2468-1462-94aa-6352d4889aaf
+[2021-07-26 01:27:53.456 -03:00] [INF] [78] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "906cc7085e321ffa629209992cb96c25" "Sunday Night" "Studio".
+[2021-07-26 01:27:53.457 -03:00] [INF] [78] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Sunday Night", Path: "/config/metadata/Studio/Sunday Night", Id: 906cc708-5e32-1ffa-6292-09992cb96c25
+[2021-07-26 01:27:53.654 -03:00] [INF] [78] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 11 seconds
+[2021-07-26 01:27:53.655 -03:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-26 01:27:53.656 -03:00] [INF] [78] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 01:27:53.656 -03:00] [INF] [63] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-26 02:00:00.003 -03:00] [INF] [204] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Extract Chapter Images"
+[2021-07-26 02:00:00.004 -03:00] [INF] [204] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "ChapterImagesTask"
+[2021-07-26 02:00:00.005 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Extract Chapter Images"
+[2021-07-26 02:00:00.082 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 02:00:00.084 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 02:00:01.015 -03:00] [INF] [204] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 07/27/2021 02:00, which is 23:59:58.9847367 from now.
+[2021-07-26 13:26:49.330 -03:00] [INF] [165] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Update Plugins"
+[2021-07-26 13:26:49.331 -03:00] [INF] [165] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2021-07-26 13:26:49.332 -03:00] [INF] [139] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2021-07-26 13:26:52.609 -03:00] [INF] [166] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2021-07-26 13:26:52.612 -03:00] [INF] [166] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 13:27:42.518 -03:00] [INF] [131] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2021-07-26 13:27:42.519 -03:00] [INF] [131] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2021-07-26 13:27:42.520 -03:00] [INF] [131] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2021-07-26 13:27:42.521 -03:00] [INF] [131] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/tv"
+[2021-07-26 13:27:42.522 -03:00] [INF] [131] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/movies"
+[2021-07-26 13:27:42.522 -03:00] [INF] [131] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2021-07-26 13:27:42.790 -03:00] [INF] [131] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 13:27:42.799 -03:00] [INF] [140] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-26 13:27:42.799 -03:00] [INF] [131] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 13:27:42.801 -03:00] [INF] [149] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-26 22:30:37.009 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2021-07-26 22:30:37.010 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2021-07-26 22:30:37.012 -03:00] [INF] [230] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2021-07-26 22:30:37.019 -03:00] [INF] [230] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 22:30:37.022 -03:00] [INF] [230] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 22:30:37.117 -03:00] [INF] [210] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2021-07-26 22:30:37.117 -03:00] [INF] [210] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2021-07-26 22:30:37.117 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2021-07-26 22:30:37.120 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 22:30:37.122 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 22:30:37.189 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2021-07-26 22:30:37.189 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2021-07-26 22:30:37.189 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2021-07-26 22:30:37.190 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 22:30:37.191 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 22:30:37.275 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2021-07-26 22:30:37.275 -03:00] [INF] [237] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2021-07-26 22:30:37.275 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2021-07-26 22:30:37.276 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 22:30:37.277 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 22:30:37.371 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2021-07-26 22:30:37.372 -03:00] [INF] [202] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2021-07-26 22:30:37.372 -03:00] [INF] [120] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2021-07-26 22:30:37.378 -03:00] [INF] [120] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2021-07-26 22:30:37.379 -03:00] [INF] [120] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-26 23:30:53.839 -03:00] [INF] [239] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2021-07-26 23:30:53.839 -03:00] [INF] [239] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2021-07-26 23:30:53.839 -03:00] [INF] [255] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2021-07-26 23:30:56.845 -03:00] [INF] [209] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2021-07-26 23:30:56.847 -03:00] [INF] [209] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2021-07-26 23:30:56.849 -03:00] [INF] [209] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
