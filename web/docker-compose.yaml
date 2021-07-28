@@ -14,3 +14,32 @@ services:
       - LOG_FILE=false
     volumes:
       - /home/pi/web/duckdns/config:/config
+
+  app:
+    container_name: nginx-proxy-manager
+    image: "jc21/nginx-proxy-manager:latest"
+    restart: always
+    ports:
+      - 80:80
+      - 81:81
+      - 443:443
+    environment:
+      DB_MYSQL_HOST: "db"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: "lasudeste"
+      DB_MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
+      DB_MYSQL_NAME: "npm"
+    volumes:
+      - /home/pi/web/proxy/data:/data
+      - /home/pi/web/proxy/letsencrypt:/etc/letsencrypt
+  db:
+    container_name: maria-db
+    image: "yobasystems/alpine-mariadb:latest"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "GheBEuayQ4NjQ8F"
+      MYSQL_DATABASE: "npm"
+      MYSQL_USER: "lasudeste"
+      MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
+    volumes:
+      - /home/pi/web/proxy/data/mysql:/var/lib/mysql
