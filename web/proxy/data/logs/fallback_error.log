@@ -1,3 +1,0 @@
-2021/07/28 00:05:58 [error] 267#267: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1:81"
-2021/07/28 00:06:03 [error] 267#267: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1:81"
-2021/07/28 00:06:08 [error] 267#267: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1:81"

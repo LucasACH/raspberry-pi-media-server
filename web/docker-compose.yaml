@@ -30,8 +30,8 @@ services:
       DB_MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
       DB_MYSQL_NAME: "npm"
     volumes:
-      - /home/pi/web/proxy/data:/data
-      - /home/pi/web/proxy/letsencrypt:/etc/letsencrypt
+      - /home/pi/web/nginx/data:/data
+      - /home/pi/web/nginx/letsencrypt:/etc/letsencrypt
   db:
     container_name: maria-db
     image: "yobasystems/alpine-mariadb:latest"
@@ -42,4 +42,4 @@ services:
       MYSQL_USER: "lasudeste"
       MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
     volumes:
-      - /home/pi/web/proxy/data/mysql:/var/lib/mysql
+      - /home/pi/web/nginx/data/mysql:/var/lib/mysql

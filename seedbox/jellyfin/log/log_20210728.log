@@ -1,0 +1,16 @@
+[2021-07-28 01:27:43.157 -03:00] [INF] [258] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2021-07-28 01:27:43.162 -03:00] [INF] [258] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2021-07-28 01:27:43.163 -03:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2021-07-28 01:27:43.172 -03:00] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/movies"
+[2021-07-28 01:27:43.175 -03:00] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/downloads/tv"
+[2021-07-28 01:27:43.184 -03:00] [INF] [38] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2021-07-28 01:27:44.230 -03:00] [INF] [255] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 1 seconds
+[2021-07-28 01:27:44.231 -03:00] [INF] [255] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-28 01:27:44.231 -03:00] [INF] [42] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/movies
+[2021-07-28 01:27:44.289 -03:00] [INF] [258] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /downloads/tv
+[2021-07-28 01:59:59.998 -03:00] [INF] [162] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Extract Chapter Images"
+[2021-07-28 01:59:59.999 -03:00] [INF] [162] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "ChapterImagesTask"
+[2021-07-28 02:00:00.000 -03:00] [INF] [169] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Extract Chapter Images"
+[2021-07-28 02:00:00.099 -03:00] [INF] [169] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2021-07-28 02:00:00.103 -03:00] [INF] [169] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2021-07-28 02:00:01.002 -03:00] [INF] [162] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 07/29/2021 02:00, which is 23:59:58.9974997 from now.

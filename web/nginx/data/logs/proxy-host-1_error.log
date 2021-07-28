@@ -1,0 +1,1 @@
+2021/07/28 15:08:43 [error] 1050#1050: *356 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 191.85.164.31, server: lasudeste.duckdns.org, request: "GET /media HTTP/2.0", upstream: "https://192.168.1.44:8096/media", host: "lasudeste.duckdns.org"
