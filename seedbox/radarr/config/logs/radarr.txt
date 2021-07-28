@@ -2074,3 +2074,11 @@ RequestUri: http://192.168.1.44:9117/api/v2.0/indexers/yts/results/torznab/api?t
 2021-07-27 21:11:12.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/movies/Insurgent (2015). Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
 2021-07-27 21:12:42.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/movies/Insurgent (2015). Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
 2021-07-27 21:14:12.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/movies/Insurgent (2015). Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-07-27 21:15:42.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/movies/Insurgent (2015). Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-07-27 21:16:12.6|Info|HousekeepingService|Running housecleaning tasks
+2021-07-27 21:16:12.6|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2021-07-27 21:16:12.7|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2021-07-27 21:16:13.0|Info|Database|Vacuuming Log database
+2021-07-27 21:16:13.2|Info|Database|Log database compressed
+2021-07-27 21:16:13.2|Info|Database|Vacuuming Main database
+2021-07-27 21:16:13.3|Info|Database|Main database compressed

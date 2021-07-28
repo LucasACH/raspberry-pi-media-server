@@ -10,5 +10,5 @@
 .selected_editor
 .viminfo
 .wget-hsts
-./.ssh
-./.cache
+./.ssh/
+./.cache/
