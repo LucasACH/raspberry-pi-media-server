@@ -5,30 +5,30 @@ services:
     image: ghcr.io/linuxserver/deluge
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
       - DELUGE_LOGLEVEL=error #optional
     volumes:
-      - /home/pi/seedbox/deluge/config:/config
-      - /home/pi/seedbox/downloads:/downloads
+      - /home/${USER}/seedbox/deluge/config:/config
+      - /home/${USER}/seedbox/downloads:/downloads
     ports:
       - 8112:8112
       - 6881:6881
       - 6881:6881/udp
- 
+
   jackett:
     container_name: jackett
     image: ghcr.io/linuxserver/jackett
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
       - AUTO_UPDATE=true
       - RUN_OPTS=<run options here>
     volumes:
-      - /home/pi/seedbox/jackett/config:/config
+      - /home/${USER}/seedbox/jackett/config:/config
     ports:
       - 9117:9117
 
@@ -37,12 +37,12 @@ services:
     image: ghcr.io/linuxserver/radarr
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
-      - /home/pi/seedbox/radarr/config:/config
-      - /home/pi/seedbox/downloads/movies:/movies
+      - /home/${USER}/seedbox/radarr/config:/config
+      - /home/${USER}/seedbox/downloads/movies:/movies
     ports:
       - 7878:7878
 
@@ -51,12 +51,12 @@ services:
     image: ghcr.io/linuxserver/sonarr
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
-      - /home/pi/seedbox/sonarr/config:/config
-      - /home/pi/seedbox/downloads/tv:/tv
+      - /home/${USER}/seedbox/sonarr/config:/config
+      - /home/${USER}/seedbox/downloads/tv:/tv
     ports:
       - 8989:8989
 
@@ -65,14 +65,14 @@ services:
     image: jellyfin/jellyfin
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
       - JELLYFIN_PublishedServerUrl=http://example.com
     volumes:
-      - /home/pi/seedbox/jellyfin:/config
-      - /home/pi/seedbox/jellyfin/cache:/cache
-      - /home/pi/seedbox/downloads:/downloads
+      - /home/${USER}/seedbox/jellyfin:/config
+      - /home/${USER}/seedbox/jellyfin/cache:/cache
+      - /home/${USER}/seedbox/downloads:/downloads
       # Optional - alternative address used for autodiscovery
     ports:
       - 8096:8096

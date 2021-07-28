@@ -6,14 +6,14 @@ services:
     image: ghcr.io/linuxserver/duckdns
     restart: always
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Argentina/Buenos_Aires
-      - SUBDOMAINS=lasudeste,peliculux,descargatelux
-      - TOKEN=136c1edf-e709-4e2c-91a5-5b077812ad65
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - SUBDOMAINS=${SUBDOMAINS}
+      - TOKEN=${DUCKDNS_TOKEN}
       - LOG_FILE=false
     volumes:
-      - /home/pi/web/duckdns/config:/config
+      - /home/${USER}/web/duckdns/config:/config
 
   app:
     container_name: nginx-proxy-manager
@@ -26,20 +26,20 @@ services:
     environment:
       DB_MYSQL_HOST: "db"
       DB_MYSQL_PORT: 3306
-      DB_MYSQL_USER: "lasudeste"
-      DB_MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
+      DB_MYSQL_USER: ${DB_MYSQL_USER}
+      DB_MYSQL_PASSWORD: ${DB_MYSQL_PASSWORD}
       DB_MYSQL_NAME: "npm"
     volumes:
-      - /home/pi/web/nginx/data:/data
-      - /home/pi/web/nginx/letsencrypt:/etc/letsencrypt
+      - /home/${USER}/web/nginx/data:/data
+      - /home/${USER}/web/nginx/letsencrypt:/etc/letsencrypt
   db:
     container_name: maria-db
     image: "yobasystems/alpine-mariadb:latest"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: "GheBEuayQ4NjQ8F"
+      MYSQL_ROOT_PASSWORD: ${DB_MYSQL_PASSWORD}
       MYSQL_DATABASE: "npm"
-      MYSQL_USER: "lasudeste"
-      MYSQL_PASSWORD: "GheBEuayQ4NjQ8F"
+      MYSQL_USER: ${DB_MYSQL_USER}
+      MYSQL_PASSWORD: ${DB_MYSQL_PASSWORD}
     volumes:
-      - /home/pi/web/nginx/data/mysql:/var/lib/mysql
+      - /home/${USER}/web/nginx/data/mysql:/var/lib/mysql

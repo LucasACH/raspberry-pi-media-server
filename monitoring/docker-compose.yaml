@@ -11,8 +11,8 @@ services:
     container_name: prometheus
     restart: always
     volumes:
-      - /home/pi/monitoring/tools/prometheus/:/etc/prometheus/
-      - /home/pi/monitoring/tools/prometheus:/data
+      - /home/${USER}/monitoring/tools/prometheus/:/etc/prometheus/
+      - /home/${USER}/monitoring/tools/prometheus:/data
     command:
       - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.path=/prometheus"
@@ -32,14 +32,14 @@ services:
     container_name: grafana
     restart: always
     volumes:
-      - /home/pi/monitoring/tools/grafana:/data
-      - /home/pi/monitoring/tools/grafana/provisioning/:/etc/grafana/provisioning/
+      - /home/${USER}/monitoring/tools/grafana:/data
+      - /home/${USER}/monitoring/tools/grafana/provisioning/:/etc/grafana/provisioning/
     depends_on:
       - prometheus
     ports:
       - 3030:3000
     env_file:
-      - /home/pi/monitoring/tools/grafana/config.monitoring
+      - /home/${USER}/monitoring/tools/grafana/config.monitoring
     networks:
       - back-tier
       - front-tier

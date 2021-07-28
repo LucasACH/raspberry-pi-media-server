@@ -16,7 +16,7 @@ services:
     ports:
       - 9115:9115
     volumes:
-      - /home/pi/monitoring/internet/blackbox/config:/config
+      - /home/${USER}/monitoring/internet/blackbox/config:/config
     command:
       - "--config.file=/config/blackbox.yml"
     networks:
