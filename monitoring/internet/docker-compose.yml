@@ -1,0 +1,39 @@
+#Raspberry Pi | Home Media Server
+
+version: "3.9"
+
+networks:
+  monitoring_back-tier:
+    external: true
+
+services:
+  ping:
+    container_name: monitoring-internet-ping
+    image: prom/blackbox-exporter
+    restart: "no"
+    tty: true
+    stdin_open: true
+    expose:
+      - 9115
+    ports:
+      - 9115:9115
+    volumes:
+      - /home/${USER}/monitoring/internet/blackbox/config:/config
+    command:
+      - "--config.file=/config/blackbox.yml"
+    networks:
+      - monitoring_back-tier
+
+  speedtest:
+    container_name: monitoring-internet-speedtest
+    image: miguelndecarvalho/speedtest-exporter
+    restart: "no"
+    privileged: true
+    tty: true
+    stdin_open: true
+    expose:
+      - 9798
+    ports:
+      - 9798:9798
+    networks:
+      - monitoring_back-tier
