@@ -250,7 +250,10 @@ This way of connecting to the samba server running on your Pi is meant to work o
 
 1. Open Windows Explorer.
 2. In the path bar, write **_\\<RASPBERRY_IP>_** (pay attention to the backward slashes).
-3. That should create a new entry in **Network** and show its content.
+
+![samba](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/samba.png)
+
+4. That should create a new entry in **Network** and show its content.
 
 Samba is going to be useful to access downloaded media.
 
@@ -284,6 +287,9 @@ You don't need to do extra configuration. It runs out of the box!
 ### Grafana
 To access Grafana, open your web browser and go to **_http://<RASPBERRY_IP>:3030/_**. A sign in form should appear. The default credentials are **admin admin**. Once in, make sure to change your username and password. To see your dashboards navigate to **_http://<RASPBERRY_IP>:3030/dashboards_**. For now, the only one that will display data is the **System Monitoring** dashboard.
 
+![dashboard_1](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/grafana.PNG)
+![dashboard_1](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/grafana_2.PNG)
+
 ### Internet Monitoring
 This step is optional. I found this cool [repo](https://github.com/geerlingguy/internet-pi/tree/master/internet-monitoring) for monitoring your internet speed. Check it out for more details.
 
@@ -310,6 +316,8 @@ docker-compose up -d
 
 Now go to your Grafana dashboards tab and open **Internet connection**. After some time, the dashboard should look something like this.
 You can activate or deactivate the internet monitoring tool just by running or stopping the two docker containers (**_monitoring-internet-ping_** and **_monitoring-internet-speedtest_**).
+
+![internet](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/internet.PNG)
 
 ## Seedbox
 In this stack I included five services. The first one is called Deluge, which is a free and open-source, cross-platform BitTorrent client written in Python. The second one is known as Jackett. It works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. Radarr and Sonnar are media collection managers for Usenet and BitTorrent users. They can monitor multiple RSS feeds for new movies (Radarr) or shows (Sonarr) and will interface with clients and indexers to grab, sort, and rename them. The last service is called Jellyfin, a volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
@@ -358,9 +366,13 @@ To access Jackett, open your web browser and go to **_http://<RASPBERRY_IP>:9117
 You can access Radarr on port **7878** and Sonarr on port **8989**. The configuration is similar for both services. Before adding your selected indexers and download client (Deluge), specify the root folder for the downloaded media. Simply go to **_Settings > Media Management_** and click on **Add Root Folder** button. The path for Radarr is **_/downloads/movies_** and the one for Sonarr is **_/downloads/tv_**
 
 To add an indexer, go to **_Settings > Indexers_** and click on the **+** sign. Then click on Custom Torznab and fill up the fields. To get indexers URL go to Jackett, locate the indexer you want to add and click on Copy Torznab Feed. It should look something like this **_http://<RASPBERRY_IP>:9117/api/v2.0/indexers/<INDEXER>/results/torznab/_**. You can also replace your raspberry ip with your jackett container name (jackett).
-  
+ 
+![torznab](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/torznab.PNG)  
+
 Now for the download client go to **_Settings > Download Clients_**, click the **+** sign and select Deluge. If you get an error when setting up the host as **deluge**, try replacing it with your Pi's ip address. The password should be the one you used for Deluge. If everything went well, you should get a green thick when clicking on Test.
 
+![deluge](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/deluge-radarr.PNG)    
+  
 Great! You can now start downloading movies by clicking on **_Movies > Add New_**. 
 Follow the same steps for setting up Sonarr. Make sure to add **tv** category instead of **movies**, when adding Deluge downloading client.
 
@@ -404,7 +416,12 @@ To access Nginx Proxy Manager, open your web browser and go to **_http://<RASPBE
 
 Perfect! You can now start adding your proxy hosts. Go to the Nginx Proxy Manager running on the Pi and navigate to the **Proxy Hosts* section. Once in, click on **Add Proxy Host**. You will need to specify the domain name created with DuckDNS, your Raspberry�s IP address and the port you want to forward to. For example, if you want to show the Grafana dashboard add port 3030.
   
+![host](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/host.PNG)
+  
 You can also create an **SSL Certificate** for encrypting data transfers between client and host. Simply go to the SSL tab and request a new SSL Certificate.
+  
+![ssl](https://github.com/LucasACH/raspberry-pi-media-server/blob/main/screenshots/ssl.PNG)  
+  
 If everything went well, you should be able to access your desired services from outside your local network, by browsing your DuckDNS domain name.
   
 ## Conclusion
