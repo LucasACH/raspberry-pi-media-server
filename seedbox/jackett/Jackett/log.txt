@@ -619,3 +619,7 @@ System.Threading.Tasks.TaskCanceledException: The request was canceled due to th
 2021-07-28 23:14:06.0015 Info Torznab search in EZTV for Mr Robot S01 => Found 100 releases (from cache) 
 2021-07-28 23:14:07.9877 Info Torznab search in EZTV for Mr Robot S01 => Found 100 releases (from cache) 
 2021-07-28 23:14:09.9843 Info Torznab search in EZTV for Mr Robot S01 => Found 100 releases (from cache) 
+2021-07-28 23:18:35.1029 Warn Some of the categories provided are unsupported in 1337x: 2020,2050 
+2021-07-28 23:18:36.1776 Info Torznab search in YTS => Found 99 releases 
+2021-07-28 23:18:36.6506 Info Torznab search in ETTV => Found 100 releases 
+2021-07-28 23:18:37.5846 Info Torznab search in 1337x => Found 20 releases 

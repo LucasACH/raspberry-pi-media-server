@@ -572,3 +572,6 @@
 2021-07-28 22:18:08.9|Info|RssSyncService|RSS Sync Completed. Reports found: 220, Reports grabbed: 0
 2021-07-28 22:50:44.1|Info|Auth|Auth-Unauthorized ip ::ffff:192.168.1.45 url 'http://192.168.1.44:7878'
 2021-07-28 22:51:19.4|Info|Auth|Auth-Success ip ::ffff:192.168.1.45 username 'home-server'
+2021-07-28 23:18:35.0|Info|RssSyncService|Starting RSS Sync
+2021-07-28 23:18:37.6|Info|DownloadDecisionMaker|Processing 219 releases
+2021-07-28 23:18:42.1|Info|RssSyncService|RSS Sync Completed. Reports found: 219, Reports grabbed: 0

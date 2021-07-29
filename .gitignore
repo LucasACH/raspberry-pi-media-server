@@ -1,6 +1,5 @@
 *.mp4
 *.mkv
-./seedbox/downloads
 .bash_history
 .bash_logout
 .bashrc
