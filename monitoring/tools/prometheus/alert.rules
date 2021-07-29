@@ -1,3 +1,5 @@
+#Raspberry Pi | Home Media Server
+
 groups:
 - name: example
   rules:
