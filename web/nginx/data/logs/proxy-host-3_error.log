@@ -1,1 +1,0 @@
-2021/07/28 22:02:44 [error] 9695#9695: *12282 connect() failed (111: Connection refused) while connecting to upstream, client: 65.154.226.109, server: peliculux.duckdns.org, request: "GET / HTTP/2.0", upstream: "http://192.168.1.44:8096/", host: "peliculux.duckdns.org"
