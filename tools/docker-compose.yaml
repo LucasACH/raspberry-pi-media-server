@@ -16,7 +16,7 @@ services:
     container_name: samba
     image: dperson/samba:rpi
     restart: always
-    command: '-u "${USER};password" -s "downloads;/downloads;yes;no"'
+    command: '-u "${USER};password" -s "data;/data;yes;no"'
     stdin_open: true
     tty: true
     environment:
@@ -25,4 +25,4 @@ services:
       - 139:130
       - 445:445
     volumes:
-      - /home/${USER}/seedbox/downloads:/downloads
+      - /data:/data

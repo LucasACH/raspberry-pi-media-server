@@ -1,0 +1,23 @@
+{
+  "Port": 9117,
+  "AllowExternal": true,
+  "APIKey": "27yxu6t5jwpvy34b4dxu60w6tog4djfe",
+  "AdminPassword": "d497071e7f35ecbc7d4216c921beaffb27f0892322fcb825a8dc308aceb7d2a97e607a8b05ba890df892723a5c18cd09cbd743d6f7f2225ad145f105c8e99571",
+  "InstanceId": "lm3y8t9d7miqhfjlrybhtxybrd9kkmfflsm25zujxliu7utugqz4lvi5mim42kdo",
+  "BlackholeDir": "",
+  "UpdateDisabled": false,
+  "UpdatePrerelease": false,
+  "BasePathOverride": "",
+  "CacheEnabled": true,
+  "CacheTtl": 2100,
+  "CacheMaxResultsPerIndexer": 1000,
+  "FlareSolverrUrl": "",
+  "OmdbApiKey": "",
+  "OmdbApiUrl": "",
+  "ProxyType": -1,
+  "ProxyUrl": "",
+  "ProxyPort": null,
+  "ProxyUsername": "",
+  "ProxyPassword": "",
+  "ProxyIsAnonymous": true
+}

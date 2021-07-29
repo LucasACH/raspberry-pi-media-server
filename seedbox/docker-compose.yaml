@@ -1,4 +1,5 @@
 version: "3.9"
+
 services:
   deluge:
     container_name: deluge
@@ -10,8 +11,8 @@ services:
       - TZ=${TZ}
       - DELUGE_LOGLEVEL=error #optional
     volumes:
-      - /home/${USER}/seedbox/deluge/config:/config
-      - /home/${USER}/seedbox/downloads:/downloads
+      - /home/${USER}/seedbox/deluge:/config
+      - /data:/downloads
     ports:
       - 8112:8112
       - 6881:6881
@@ -28,7 +29,7 @@ services:
       - AUTO_UPDATE=true
       - RUN_OPTS=<run options here>
     volumes:
-      - /home/${USER}/seedbox/jackett/config:/config
+      - /home/${USER}/seedbox/jackett:/config
     ports:
       - 9117:9117
 
@@ -41,8 +42,8 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - /home/${USER}/seedbox/radarr/config:/config
-      - /home/${USER}/seedbox/downloads/movies:/movies
+      - /home/${USER}/seedbox/radarr:/config
+      - /data:/downloads
     ports:
       - 7878:7878
 
@@ -55,8 +56,8 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - /home/${USER}/seedbox/sonarr/config:/config
-      - /home/${USER}/seedbox/downloads/tv:/tv
+      - /home/${USER}/seedbox/sonarr:/config
+      - /data:/downloads
     ports:
       - 8989:8989
 
@@ -72,7 +73,7 @@ services:
     volumes:
       - /home/${USER}/seedbox/jellyfin:/config
       - /home/${USER}/seedbox/jellyfin/cache:/cache
-      - /home/${USER}/seedbox/downloads:/downloads
-      # Optional - alternative address used for autodiscovery
+      - /data:/downloads
     ports:
       - 8096:8096
+

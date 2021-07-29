@@ -2,7 +2,6 @@
 <ServerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogFileRetentionDays>3</LogFileRetentionDays>
   <IsStartupWizardCompleted>true</IsStartupWizardCompleted>
-  <CachePath>/cache</CachePath>
   <EnableUPnP>false</EnableUPnP>
   <EnableMetrics>false</EnableMetrics>
   <PublicPort>8096</PublicPort>
@@ -30,11 +29,11 @@
   <CertificatePath />
   <CertificatePassword />
   <IsPortAuthorized>true</IsPortAuthorized>
-  <QuickConnectAvailable>true</QuickConnectAvailable>
+  <QuickConnectAvailable>false</QuickConnectAvailable>
   <EnableRemoteAccess>true</EnableRemoteAccess>
   <EnableCaseSensitiveItemIds>true</EnableCaseSensitiveItemIds>
   <DisableLiveTvChannelUserDataName>true</DisableLiveTvChannelUserDataName>
-  <MetadataPath>/config/metadata</MetadataPath>
+  <MetadataPath />
   <MetadataNetworkPath />
   <PreferredMetadataLanguage>en</PreferredMetadataLanguage>
   <MetadataCountryCode>US</MetadataCountryCode>
@@ -156,7 +155,7 @@
     </MetadataOptions>
   </MetadataOptions>
   <SkipDeserializationForBasicTypes>true</SkipDeserializationForBasicTypes>
-  <ServerName>home-server</ServerName>
+  <ServerName />
   <BaseUrl />
   <UICulture>en-US</UICulture>
   <SaveMetadataHidden>false</SaveMetadataHidden>
