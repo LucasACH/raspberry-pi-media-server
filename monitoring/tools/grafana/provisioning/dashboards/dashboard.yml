@@ -1,3 +1,5 @@
+#Grafana dashboard config file
+
 apiVersion: 1
 
 providers:
