@@ -212,7 +212,7 @@ sudo usermod -aG docker pi
 If you successfully config and installed the pre-requisites and your docker engine is running as expected you are now ready to clone the repo. Just SSH into your raspberry, make sure you are in the **_/home/pi_** directory, and run the following command.
 
 ```
-git clone https://github.com/LucasACH/raspberry-pi-media-server
+git clone https://github.com/LucasACH/raspberry-pi-media-server .
 ```
 
 Perfect! Before running the docker containers you will need to make some configuration. I created an **.env** file inside each folder that you will need to fill up with your custom data.
